@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">NhatLongDiaryApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="weekdays">
+        <item>SUN</item>
+        <item>MON</item>
+        <item>TUE</item>
+        <item>WED</item>
+        <item>THUR</item>
+        <item>FRI</item>
+        <item>SAT</item>
+    </string-array>
+</resources>

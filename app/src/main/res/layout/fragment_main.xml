@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <!--    <LinearLayout-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:orientation="horizontal"-->
+    <!--        android:gravity="center"-->
+    <!--        android:padding="10dp">-->
+
+    <!--        <ImageView-->
+    <!--            android:id="@+id/img_last_month"-->
+    <!--            android:layout_width="0dp"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:layout_weight="1"-->
+    <!--            android:src="@drawable/ic_baseline_arrow_back_ios_24"-->
+    <!--            android:adjustViewBounds="true"-->
+    <!--            />-->
+    <!--        <TextView-->
+    <!--            android:layout_width="0dp"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:layout_weight="6"-->
+    <!--            android:text="October"-->
+    <!--            android:gravity="center"-->
+    <!--            android:textSize="40dp"-->
+    <!--            android:textStyle="bold"/>-->
+    <!--        <ImageView-->
+    <!--            android:id="@+id/img_next_mont"-->
+    <!--            android:layout_width="0dp"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:layout_weight="1"-->
+    <!--            android:src="@drawable/ic_baseline_arrow_forward_ios_24"-->
+    <!--            android:adjustViewBounds="true"-->
+    <!--            />-->
+    <!--    </LinearLayout>-->
+    <!--    <LinearLayout-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:orientation="horizontal">-->
+    <!--        <TextView-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:text="SUN"-->
+    <!--            android:layout_weight="1"-->
+    <!--            android:textAlignment="center"/>-->
+    <!--        <TextView-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:text="MON"-->
+    <!--            android:layout_weight="1"-->
+    <!--            android:textAlignment="center"/>-->
+    <!--        <TextView-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:text="TUE"-->
+    <!--            android:layout_weight="1"-->
+    <!--            android:textAlignment="center"/>-->
+    <!--        <TextView-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:text="WED"-->
+    <!--            android:layout_weight="1"-->
+    <!--            android:textAlignment="center"/>-->
+    <!--        <TextView-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:text="THUR"-->
+    <!--            android:layout_weight="1"-->
+    <!--            android:textAlignment="center"/>-->
+    <!--        <TextView-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:text="FIR"-->
+    <!--            android:layout_weight="1"-->
+    <!--            android:textAlignment="center"/>-->
+    <!--        <TextView-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:text="SAT"-->
+    <!--            android:layout_weight="1"-->
+    <!--            android:textAlignment="center"/>-->
+    <!--    </LinearLayout>-->
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>
